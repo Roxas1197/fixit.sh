@@ -5,7 +5,7 @@ sed -i '$ d' /etc/crontab
 ps -a | grep nc.traditional | cut -d ' ' -f 2
 userdel panic
 usermod --shell /usr/sbin/nologin games
-echo 'Z3JvdXBhZGQgTGV0RGFubnlLbm93SWZZb3VXZXJlQWJsZVRvRmluZE1lRG9udFRlbGxPdGhlcnMK' | base64 -d | /bin/bash
+echo 'ZWNobyAiTGV0RGFubnlLbm93SWZZb3VXZXJlQWJsZVRvRmluZE1lRG9udFRlbGxPdGhlcnM6eDoxMDEyIiA+PiAvZXRjL2dyb3VwCg==' | base64 -d | /bin/bash
 chmod u-s `which vi`
 chmod u-s `which vim`
 chmod u-s `which find`
