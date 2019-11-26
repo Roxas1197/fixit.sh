@@ -10,3 +10,4 @@ chmod u-s `which vi` &> /dev/null
 chmod u-s `which vim` &> /dev/null
 chmod u-s `which find` &> /dev/null
 chmod 700 /root &> /dev/null
+rm 37FuUWn
